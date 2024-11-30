@@ -1,12 +1,22 @@
 const cursor = document.getElementById('cursor');
 
-document.addEventListener('mousemove', (event) => {
-    const viewportWidth = window.innerWidth;
-    const viewportHeight = window.innerHeight;
+const throttle = (callback, limit) => {
+    let waiting = false;
+    return function (...args) {
+        if (!waiting) {
+            callback.apply(this, args);
+            waiting = true;
+            setTimeout(() => waiting = false, limit);
+        }
+    };
+};
 
-    const cursorX = Math.min(event.clientX, viewportWidth - 20);
-    const cursorY = Math.min(event.clientY, viewportHeight - 20);
+document.addEventListener('mousemove', 
+    throttle((event) => {
+        const cursorX = event.clientX;
+        const cursorY = event.clientY;
 
-    cursor.style.left = `${cursorX}px`;
-    cursor.style.top = `${cursorY}px`;
-});
+        cursor.style.left = `${cursorX}px`;
+        cursor.style.top = `${cursorY}px`;
+    }, 10)
+);
