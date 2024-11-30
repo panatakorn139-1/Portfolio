@@ -1,12 +1,12 @@
 const cursor = document.getElementById('cursor');
 
-document.addEventListener('mousemove', function(e){
-    let x = e.clientX;
-    let y = e.clientY;
-    if (x > 0.98*x) {
-        x = e.clientX * 0.98;
-    }
+document.addEventListener('mousemove', (event) => {
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
 
-    cursor.style.left = x + "px";
-    cursor.style.top = y + "px";
-})
+    const cursorX = Math.min(event.clientX, viewportWidth - 20);
+    const cursorY = Math.min(event.clientY, viewportHeight - 20);
+
+    cursor.style.left = `${cursorX}px`;
+    cursor.style.top = `${cursorY}px`;
+});

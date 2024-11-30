@@ -148,16 +148,17 @@ li{
 }
 
 #cursor{
+    pointer-events: none;
     display: none;
-    position: absolute;
+    position: fixed;
     background: #ffffff00;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     mix-blend-mode: difference;
     transform: translate(-50%,-50%);
-    transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: top 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), left 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .position_fixed {
