@@ -35,7 +35,7 @@
         <ul class="menu">
             <li><a href="./home.html">Home</a></li>
             <li><a href="./lab.html">Lab</a></li>
-            <li><a href="./lasson.html">Lasson</a></li>
+            <li><a href="./project.html">Project</a></li>
             <li><a href="./about.html">About me</a></li>
         </ul>
 
@@ -43,7 +43,7 @@
             <div id="menu_mobile" class="height100vh">
                 <div><a href="./home.html">Home</a></div>
                 <div><a href="./lab.html">Lab</a></div>
-                <div><a href="./lasson.html">Lasson</a></div>
+                <div><a href="./project.html">Project</a></div>
                 <div><a href="./about.html">About me</a></div>
             </div>
         </div>
@@ -51,42 +51,13 @@
     
     <div id="content">
         <div class="topic-text overflow-hid">
-            <h1>Lasson</h1>
+            <h1>Project</h1>
         </div>
         
-        <div class="box">
-            <div class="hover-me overflow-hid">
-                <h1 id="clickMe_hoverMe"></h1>
-                <p class="overflow-hid">
-                    ผมได้เรียนรู้การวางแผนและออกแบบ, การออกแบบ Graphic และimage, ได้เรียนรู้ HTML และCSS, 
-                    การใช้ Responsive Design การให้เว็บไซต์เป็น Responsive เว็บไซต์จะปรับขนาดและรูปแบบตามอุปกรณ์ที่ผู้ใช้ใช้งาน 
-                    เพื่อให้ผู้ใช้สามารถเข้าถึงได้ทุกแพลตฟอร์ม การออกแบบ UX/UI รวมถึงการใช้ Framework เช่น jQuery Bootstrap Tailwind
-                    การทำงานเป็นทีม การสร้างผลงานและทักษะอาชีพ นำมาใช้ในการสร้างอาชีพ เรียนรู้ประวัติเกี่ยวกับของการออกแบบเว็บไซต์ 
-                    ถึงอาจารย์จะไม่ได้สอน javascript แต่ผมก็พยายามศึกษามัน จนกลายเป็นว่าผมชอบกับการออกแบบและเขียนเว็บมากเลยล่ะครับ
-                </p>
-            </div>
-        </div>
+        
     </div>
     <script src="../js/load.js"></script>
     <script src="../js/menu_mobile.js"></script>
-    <script>
-        const clickMe_hoverMe = document.getElementById('clickMe_hoverMe')
-        const box = document.getElementById('box')
-
-        if (window.innerWidth >= 1024) {
-            clickMe_hoverMe.innerText = 'Hover Me'
-        } else {
-            clickMe_hoverMe.innerText = 'Click Me'
-        }
-
-        window.addEventListener('resize', () => {
-            if (window.innerWidth >= 1024) {
-            clickMe_hoverMe.innerText = 'Hover Me'
-            } else {
-                clickMe_hoverMe.innerText = 'Click Me'
-            }
-        })
     
-    </script>
 </body>
 </html>
