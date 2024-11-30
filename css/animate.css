@@ -1,0 +1,112 @@
+.text-1 p{
+    transform: translateY(100%);
+    animation: moveup 0.4s cubic-bezier(.615,.19,.305,.91) forwards 1s;
+}
+.text_2_wrap p{
+    transform: translateY(100%);
+    animation: moveup 0.4s cubic-bezier(.615,.19,.305,.91) forwards 1s ;
+}
+
+.text-2 h1{
+    transform: translateY(100%);
+    animation: moveup 0.4s cubic-bezier(.615,.19,.305,.91) forwards 1.2s;
+}
+
+.text-3 p{
+    transform: translateY(100%);
+    animation: moveup 0.4s cubic-bezier(.615,.19,.305,.91) forwards 1.4s;
+}
+
+.profile_pic img{
+    opacity: 0;
+    transform: translateX(10%);
+    animation: leftmove 0.8s cubic-bezier(0.645, 0.045, 0.355, 1) forwards 1s;
+}
+
+a{
+    background: linear-gradient(currentColor 0 0) bottom left/var(--underline-width, 0%) 0.1em no-repeat;
+    transition: 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.mylab h1{
+    transform: translateY(100%);
+    animation: moveup 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) forwards 1s;
+}
+
+.all-lab h1{
+    transform: translateY(100%);
+    animation: moveup 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) forwards 0.6s;
+}
+
+.lab-item:hover > .l{
+    animation: wave 0.4s cubic-bezier(.615,.19,.305,.91)  forwards;
+}
+
+.lab-item:hover > .a{
+    animation: wave 0.4s cubic-bezier(.615,.19,.305,.91)  forwards 0.1s;
+}
+
+.lab-item:hover > .b{
+    animation: wave 0.4s cubic-bezier(.615,.19,.305,.91)  forwards 0.15s;
+}
+
+.lab-item:hover > .no-{
+    animation: wave 0.4s cubic-bezier(.615,.19,.305,.91)  forwards 0.2s;
+}
+
+.topic-text h1{
+    transform: translateY(100%);
+    animation: moveup 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) forwards 0.6s;
+}
+
+@keyframes leftmove {
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes moveup {
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+@keyframes wave {
+    0%{
+        transform: translateY(50%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+@keyframes opacity-text {
+    60%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes for-webdesign {
+    30.97%{
+        transform: translateY(0);
+    }
+    40.07%{
+        transform: translateY(50%);
+    }
+    49.97%{
+        transform: translateY(100%);
+    }
+    89.07%{
+        transform: translateY(100%);
+    }
+    93.57%{
+        transform: translateY(50%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

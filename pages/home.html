@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body class="height100vh overflow-hid">
+
+    <div id="preloader">
+        <div class="ym_logo" id="inner_preloader">
+            <h2>Y</h2>
+            <h2>M</h2>
+            <h2>.</h2>
+        </div>
+    </div>
+
+    <div class="nav" id="nav">
+        <h1 class="logo"><a href="./home.html" class="position_fixed top_0">YM.</a></h1>
+        <div id="hamgurger_menu" onclick="toggleMenuMobile()">
+            <div class="position_fixed hamburger_line_wrap">
+                <div class="relative">
+                    <span id="l1"></span>
+                    <span id="l2"></span>
+                    <span id="l3"></span>
+                </div>
+            </div>
+        </div>
+        <ul class="menu">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./lab.html">Lab</a></li>
+            <li><a href="./lasson.html">Lasson</a></li>
+            <li><a href="./about.html">About me</a></li>
+        </ul>
+    </div>
+    
+    <div class="relative overflow-hid ">
+        <div id="menu_mobile" class="height100vh">
+            <div><a href="./home.html">Home</a></div>
+            <div><a href="./lab.html">Lab</a></div>
+            <div><a href="./lasson.html">Lasson</a></div>
+            <div><a href="./about.html">About me</a></div>
+        </div>
+    </div>
+    
+
+    <div id="content" class="relative">
+        <div class="cover-text">
+            <div class="text">
+                <div class="text-1 overflow-hid">
+                    <p>Hi there!</p>
+                </div>
+                <div class="text-2">
+                    <div class="text_2_wrap overflow-hid">
+                        <p>Hi there!</p><h1>I'm</h1>
+                    </div>
+                    <h1><span class="iam">I'm </span> Panatakorn</h1>
+                </div>
+                <div class="text-3"><p>this is my personal blog</p></div>
+            </div>
+        </div>
+        <div class="profile_pic overflow-hid">
+            <img src="../img/bg.png" alt="My Profile Image">
+        </div>
+        
+    </div>
+    <div id="cursor"></div>
+
+    <script>
+        const nav = document.getElementById('nav')
+        const navHeight = nav.clientHeight
+
+        contentChangeHeight = () => {
+            if (window.innerWidth >= 1024) {
+                content.style.height = `calc(100vh - ${navHeight}px)`
+            } else {
+                content.style.height = '100vh'
+            }
+        }
+        
+        setInterval(() => {
+            contentChangeHeight()
+        }, 50);
+    </script>
+    <script src="../js/cursor.js"></script>
+    <script src="../js/load.js"></script>
+    <script src="../js/menu_mobile.js"></script>
+</body>
+</html>

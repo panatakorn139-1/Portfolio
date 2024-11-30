@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW5</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="shortcut icon" href="./img/linkedin.png" />
+</head>
+<body>
+    
+    <div class="main" id="butter">
+        <header class="header">
+            <div class="nav">
+                <img class="logo" src="./img/css_logo.png" alt="">
+            </div>
+            <div class="content">
+                <div class="text">example text</div>
+                <div class="text">example text</div>
+            </div>
+            <div class="font-amimate-info">
+                <p class="font-amimate">
+                    This is use font-size property webkit-text-stroke property<br>
+                    and set animation clip-path.
+                </p>
+            </div>
+        </header>
+        <div class="section-1">
+            <div class="article">
+                <div class="topic">
+                    <p class="font-size-property">Every font size property.</p>
+                </div> <br>
+                <div class="font-size-propery-box">
+                    <div class="info">
+                        <div style="font-size: xx-small;">
+                            font-size: xx-small
+                        </div>
+                        <div style="font-size: x-small;">
+                            font-size: x-small
+                        </div>
+                        <div style="font-size: small;">
+                            font-size: small
+                        </div>
+                        <div style="font-size: smaller;">
+                            font-size: smaller
+                        </div>
+                        <div style="font-size: medium;">
+                            font-size: medium
+                        </div>
+                        <div style="font-size: large;">
+                            font-size: large
+                        </div>
+                        <div style="font-size: larger;">
+                            font-size: larger
+                        </div>
+                        <div style="font-size: x-large;">
+                            font-size: x-large
+                        </div>
+                        <div style="font-size: xx-large;">
+                            font-size: xx-large
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="size-hover">
+                <span id="circle">
+                    <img class="c-1" src="./img/circle.png" alt="">
+                    <img class="c-2" src="./img/circle.png" alt="">
+                </span>
+                <span class="hover-me">
+                    <span class="size">
+                        Hover me.
+                    </span>
+                </span>
+                <span class="size-info">Here use transform: scale(1.2).</span>
+            </span>
+            
+        </div>
+        
+        <div class="section-2">
+            <div class="article">
+                <div class="topic">
+                    <p class="font-fam-topic">Font Family</p>
+                </div>
+                <div class="topic">
+                    <p class="serif">Serif</p>
+                    <div class="sub-topic">
+                        <p>A serif is described as a short line or appendage joined to individual letters in text.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-3">
+            <div class="article">
+                <div class="topic">
+                    <p class="sans-serif">Sans Serif</p>
+                    <div class="sub-topic">
+                        <p>Sans-serif typefaces tend to have less stroke width variation than serif typefaces.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-4">
+            <div class="article">
+                <div class="circle-white">
+                    <img src="./img/circle-white.png" alt="">
+                </div>
+                <div class="topic-spacial">
+                    <p class="ex-font-design">example font design</p>
+                </div>
+                <div class="topic-spacial">
+                    <p class="slide-show">Scroll infinite text</p>
+                </div>
+                <div class="sub-topic-slide-show">
+                    <span style="font-weight: 600;">Scroll infinite text.</span> <br>
+                    <p>animation: scrollText duration infinite linear <br>
+                    and set @keyframes scrollText <br>
+                    { from { transform: translateX(100%); } <br>
+                    to { transform: translateX(-100%); }}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-5">
+            <div class="article">
+                <div class="topic-spacial">
+                    <p class="design-1">Underline.</p>
+                </div>
+                <div class="sub-tipic-underline">
+                    <span style="font-weight: 600;">Underline text animation</span><br>
+                    <p> --start: 0.1em; --color: #000; color: #ffffff00; <br>
+                        padding-bottom: var(--start); <br>
+                        background: linear-gradient(90deg,var(--color) 50%,#000 0) <br> 
+                        calc(100% - var(--_p,0%))/200% 100%, <br>
+                        linear-gradient(var(--color) 0 0) <br> 
+                        0% 100%/var(--_p,0%) var(--start) no-repeat; <br>
+                        -webkit-background-clip: text,padding-box; <br>
+                        background-clip: text,padding-box; <br>
+                        transition: 0.5s; <br>
+                        <span style="font-weight: 600;">And add pseudo code with hover. </span><br>
+                        :hover{--_p: 100%}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-6">
+            <div class="article">
+                <div class="topic-spacial">
+                    <p class="design-2">Shadow layer.</p>
+                    <div class="sub-tipic-shadows-layers">
+                        <span style="font-weight: 600;">Text with multiple of text shadows.</span> <br>
+                        <p> text-shadow: 5px 5px 0px #ffffff, <br>
+                            10px 10px 0px #000000, <br>
+                            15px 15px 0px #ffffff, <br>
+                            20px 20px 0px #000000, <br>
+                            25px 25px 0px #ffffff, <br>
+                            30px 30px 0px #000000, <br>
+                            35px 35px 0px #ffffff; <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>©2023 Panatakorn, All right reserved.</p>
+            <div>
+                <a href="https://www.facebook.com/oakptkn/" target="_blank" rel="noopener noreferrer" class="facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/axk_ym/" target="_blank" rel="noopener noreferrer" class="instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+    <script src="./js/butter.js"></script>
+    <script>
+        butter.init({cancelOnTouch: true});
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

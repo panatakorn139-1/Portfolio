@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/all_lab.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="ym_logo" id="inner_preloader">
+            <h2>Y</h2>
+            <h2>M</h2>
+            <h2>.</h2>
+        </div>
+    </div>
+    
+    <div class="nav">
+        <h1 class="logo"><a href="./home.html" class="position_fixed top_0">YM.</a></h1>
+
+        <div id="hamgurger_menu" onclick="toggleMenuMobile()">
+            <div class="position_fixed hamburger_line_wrap">
+                <div class="relative">
+                    <span id="l1"></span>
+                    <span id="l2"></span>
+                    <span id="l3"></span>
+                </div>
+            </div>
+        </div>
+
+        <ul class="menu">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./lab.html">Lab</a></li>
+            <li><a href="./lasson.html">Lasson</a></li>
+            <li><a href="./about.html">About me</a></li>
+        </ul>
+
+        <div class="relative overflow-hid ">
+            <div id="menu_mobile" class="height100vh">
+                <div><a href="./home.html">Home</a></div>
+                <div><a href="./lab.html">Lab</a></div>
+                <div><a href="./lasson.html">Lasson</a></div>
+                <div><a href="./about.html">About me</a></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="content">
+        <div class="all-lab overflow-hid">
+            <h1>All Lab</h1>
+        </div>
+
+        <div class="lab all-lab">
+            <a href="./lab/lab1/page.html" target="_blank">
+                <div class="lab-item">
+                    <div class="l"><h1>L</h1></div>
+                    <div class="a"><h1>A</h1></div>
+                    <div class="b"><h1>B</h1></div>
+                    <div class="no-"><h1>1</h1></div>
+                </div>
+            </a>
+            <a href="./lab/lab2/page.html" target="_blank">
+                <div class="lab-item">
+                    <div class="l"><h1>L</h1></div>
+                    <div class="a"><h1>A</h1></div>
+                    <div class="b"><h1>B</h1></div>
+                    <div class="no-"><h1>2</h1></div>
+                </div>
+            </a>
+            <a href="./lab/lab4/index.html" target="_blank">
+                <div class="lab-item">
+                    <div class="l"><h1>L</h1></div>
+                    <div class="a"><h1>A</h1></div>
+                    <div class="b"><h1>B</h1></div>
+                    <div class="no-"><h1>4</h1></div>
+                </div>
+            </a>
+            <a href="./lab/lab5/index.html" target="_blank">
+                <div class="lab-item">
+                    <div class="l"><h1>L</h1></div>
+                    <div class="a"><h1>A</h1></div>
+                    <div class="b"><h1>B</h1></div>
+                    <div class="no-"><h1>5</h1></div>
+                </div>
+            </a>
+            <a href="./lab/lab6/index.html" target="_blank">
+                <div class="lab-item">
+                    <div class="l"><h1>L</h1></div>
+                    <div class="a"><h1>A</h1></div>
+                    <div class="b"><h1>B</h1></div>
+                    <div class="no-"><h1>6</h1></div>
+                </div>
+            </a>
+            <a href="./lab/lab7/index.html" target="_blank">
+                <div class="lab-item">
+                    <div class="l"><h1>L</h1></div>
+                    <div class="a"><h1>A</h1></div>
+                    <div class="b"><h1>B</h1></div>
+                    <div class="no-"><h1>7</h1></div>
+                </div>
+            </a>
+        </div>
+        <div class="footer"></div>
+    </div>
+    <script src="../js/butter.js"></script>
+    <script>
+        butter.init({cancelOnTouch: true});
+    </script>
+    <script src="../js/load.js"></script>
+    <script src="../js/menu_mobile.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@keyframes loading {
+    0%{
+        border: 1px solid white;
+        transform: rotate(0deg);
+    }
+    50%{
+        border: 10px solid #eeeeee;
+        transform: rotate(180deg);
+    }
+    100%{
+        border: 1px solid white;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes border {
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 92%;
+    }
+}
+
+@keyframes opacity {
+    100%{
+        opacity: 1;
+    }
+}

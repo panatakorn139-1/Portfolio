@@ -1,0 +1,51 @@
+body{
+    overflow: auto;
+}
+
+.all-lab h1{
+    text-align: center;
+    font-size: calc(10vw);
+}
+
+.all-lab {
+    padding-top: 4rem;
+}
+
+
+.lab{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5em;
+    margin: 2em;
+}
+
+.lab-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    border: 1px solid;
+    transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.lab-item h1{
+    font-size: calc(2rem + 3vw);
+    margin: 10px;
+    transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.lab a{
+    text-decoration: none;
+    color: black;
+}
+
+.lab-item:hover, .lab-item:hover > h1{
+    background: black;
+    color: white;
+}
+
+.footer{
+    height: 100px;
+}
+

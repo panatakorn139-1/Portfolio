@@ -1,0 +1,41 @@
+.w{
+    animation: moveup 0.4s cubic-bezier(.615,.19,.305,.91) forwards 1.2s;
+}
+
+.e{
+    animation: moveup 0.4s cubic-bezier(.615,.19,.305,.91) forwards 1.3s;
+}
+
+.b{
+    animation: moveup 0.4s cubic-bezier(.615,.19,.305,.91) forwards 1.4s;
+}
+
+.d{
+    animation: moveup 0.4s cubic-bezier(.615,.19,.305,.91) forwards 1.5s;
+}
+
+.e-2{
+    animation: moveup 0.4s cubic-bezier(.615,.19,.305,.91) forwards 1.6s;
+}
+
+.s{
+    animation: moveup 0.4s cubic-bezier(.615,.19,.305,.91) forwards 1.7s;
+}
+
+.i{
+    animation: moveup 0.4s cubic-bezier(.615,.19,.305,.91) forwards 1.8s;
+}
+
+.g{
+    animation: moveup 0.4s cubic-bezier(.615,.19,.305,.91) forwards 1.9s;
+}
+
+.n{
+    animation: moveup 0.4s cubic-bezier(.615,.19,.305,.91) forwards 2s;
+}
+
+@keyframes moveup {
+    100%{
+        transform: translateY(0%);
+    }
+}

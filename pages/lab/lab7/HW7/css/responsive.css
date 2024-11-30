@@ -1,0 +1,47 @@
+@media screen and (max-width: 1500px){
+    .topic{
+        font-size: 8em;
+    }
+    .process{
+        font-size: 6em;
+    }
+    .develop{
+        font-size: 6em;
+    }
+    .head2, .head3, .head4{
+        font-size: 8em;
+    }
+    .head5{
+        font-size: 6em;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .develop{
+        font-size: 8em;
+    }
+    .head5{
+        font-size: 8em;
+    }
+}
+
+@media screen and (min-width: 1800px){
+    .develop{
+        font-size: 10em;
+    }
+    .head5{
+        font-size: 8em;
+    }
+    .website{
+        font-size: 14em;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-height: 1000px){
+    .develop{
+        font-size: 10em;
+    }
+    .website{
+        font-size: 12em;
+    }
+}

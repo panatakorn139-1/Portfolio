@@ -1,0 +1,243 @@
+@media (min-width: 375px) {
+    .logo{
+        font-size: 2.35em;
+    }
+
+    .logo a{
+        left: 25px;
+    }
+
+    .hamburger_line_wrap {
+        right: 25px;
+    }
+
+    .text-3 {
+        font-size: 1.5rem;
+    }
+
+    .hover-me h1 {
+        font-size: 1.5rem;
+    }
+
+    .hover-me {
+        width: 200px;
+    }
+
+    .hover-me p {
+        font-size: 1.2rem;
+    }
+
+    .hover-me:hover{
+        width: 80%;
+        height: 600px;
+    }
+
+    .box {
+        margin-top: 5rem;
+    }
+
+    .about_me p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-3 {
+        font-size: 2rem;
+    }
+
+    .lab{
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+    }
+    
+    .hover-me p {
+        padding: 0.5rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    .hover-me:hover{
+        width: 80%;
+        height: 500px;
+    }
+    
+    .box {
+        margin-top: 2rem;
+    }
+
+    .about_me p {
+        font-size: 1.5rem;
+    }
+
+    .copy-right{
+        font-size: 1.05rem;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    #hamgurger_menu {
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    #cursor {
+        display: block;
+    }
+
+    .logo a{
+        top: 0.9%;
+        left: 3.5%;
+    }
+
+    .nav {
+        padding-top: 2%;
+        padding-right: 4%;
+    }
+
+    .nav, ul, li {
+        z-index: 9999;
+    }
+
+    .text_2_wrap p {
+        display: none;
+    }
+
+    .text_2_wrap h1 {
+        display: none;
+    }
+
+    .text-1 {
+        display: block;
+    }
+
+    .iam {
+        display: inline;
+    }
+
+    .text-2 h1 {
+        font-size: calc(1rem + 8vw);
+    }
+
+    .cover-text {
+        justify-content: start;
+        padding-left: 6%;
+        padding-top: 5%;
+    }
+
+    .text-1 p {
+        text-align: left;
+        font-size: calc(7vw);
+    }
+
+    .text-1 {
+        margin-bottom: 0;
+    }
+
+    .text-3 {
+        text-align: left;
+        font-size: calc(4vw);
+    }
+
+    .profile_pic{
+        width: calc(22vw + 22vh);
+    }
+
+    .profile_pic img {
+        transform: translateX(5%);
+    }
+
+    .my-thrid-lab{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 2rem 6%;
+    }
+
+    .fav-lab-text{
+        font-size: calc(0.9rem + 2vw);
+    }
+
+    .mylab h1{
+        text-align: center;
+        font-size: 100px;
+    }
+
+    .mylab {
+        padding-top: 2rem;
+    }
+
+    .all-lab {
+        padding-top: 2rem;
+    }
+
+    .all-lab h1{
+        font-size: 100px;
+    }
+
+    .topic-text h1{
+        text-align: center;
+        font-size: 100px;
+    }
+
+    .topic-text {
+        padding-top: 2rem;
+    }
+    
+    .hover-me p {
+        font-size: 1.8rem;
+    }
+
+    .all-lab {
+        margin: 2rem 6%;
+    }
+
+    ion-icon {
+        font-size: 50px;
+    }
+
+    .about_me p {
+        font-size: 1.6rem;
+        padding: 2rem 6%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1280px) {
+    .text-1 p {
+        font-size: 85px;
+    }
+
+    .text-2 h1 {
+        font-size: 120px;
+    }
+
+    .text-3 p {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .logo a{
+        top: 1.5%;
+        left: 4%;
+    }
+
+    .profile_pic{
+        width: calc(25vw + 25vh);
+    }
+
+    .about_me p {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 1800px) {
+    .logo a{
+        top: 2.5%;
+        left: 4%;
+    }
+}

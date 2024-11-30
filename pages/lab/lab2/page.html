@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW2</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        body header{
+            background-color: rgb(219, 82, 139);
+            color: rgb(248, 244, 241);
+            padding: 1%;
+            margin: 1px;
+            text-indent: 1%;
+        }
+        nav{
+            margin-top: 0.2em;
+        }
+        article{
+            background-color: rgb(253, 237, 226);
+            border: 1px solid gray;
+            padding: 0.5em;
+            margin-top: 0.1em;
+        }
+        article section{
+            background-color: rgb(255, 249, 244);
+            border: 1px solid gray;
+            margin: 1em;
+            padding: 0.7em;
+        }
+        article section video{
+            width: 20%;
+        }
+        article section aside{
+            display: inline-block;
+            margin-top: -5em;
+            margin-left: 10em;
+        }
+        footer{
+            background-color: rgb(219, 82, 139);
+            color: rgb(248, 244, 241);
+            padding: 0.6%;
+            margin-top: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Assignment#2</h1>
+    </header>
+    <nav>
+        Home &nbsp; Menu1 &nbsp; Menu2 &nbsp; Menu3
+    </nav>
+    <article>
+        <h3>HTML5</h3>
+        <section>
+            <h4>What is HTML5 (video)</h4>
+            <video controls>
+                <source src="./video/v1.mp4" type="video/mp4">
+                <source src="./video/v2.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section>
+            <h4>Image</h4>
+            <img src="./img/image_for_ass2.jpg" alt="">
+            <aside>
+                <h4>Canvas</h4>
+                <canvas id="square" width="250px" height="150px "></canvas>
+                <script>
+                    var c = document.getElementById("square");
+                    var ctx = c.getContext("2d");
+                    ctx.fillStyle = "#93ea76";
+                    ctx.fillRect(0,0,250,100);
+                </script>
+            </aside>
+        </section>
+    </article>
+    <footer>
+        @2015 WDT.ALL rights reserved
+    </footer>
+</body>
+</html>

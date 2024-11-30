@@ -1,0 +1,120 @@
+body{
+    overflow: hidden auto;
+}
+
+img{
+    object-fit: cover;
+}
+
+#content {
+    height: auto;
+}
+
+.my-thrid-lab{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    margin: 2em;
+}
+
+.lab{
+    width: 100%;
+    height: 60vh;
+}
+
+.mylab h1{
+    text-align: center;
+    font-size: calc(10vw);
+}
+.mylab {
+    padding-top: 4rem;
+}
+
+
+.fav-lab{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.fav-lab img{
+    width: 300%;
+    height: 100%;
+    transition: 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    z-index: 10;
+}
+
+.fav-lab-text{
+    text-align: center;
+    font-size: calc(0.9rem + 3vw);
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.view-lab{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+button{
+    border: 1px solid black;
+    padding: 1em;
+    background: none;
+    transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.view-lab button{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    background: black;
+}
+
+a:hover button{
+    color: white;
+}
+
+.black{
+    background: black;
+}
+
+.fav-lab video{
+    transition: 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.fav-lab:hover img, .fav-lab:hover video{
+    transform: scale(1.125);
+}
+
+.lab4{
+    display: flex;
+    align-items: center;
+}
+
+.lab4 img{
+    width: 120%;
+    height: 80%;
+}
+
+.purple-pink{
+    background: linear-gradient(270deg, #eeaeca, #94bbe9, #eeaeca,#94bbe9,#eeaeca) no-repeat;
+    background-size: 600% 600%;
+}
+
+.webdesign::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #151515;
+    animation: for-webdesign 8.83333s cubic-bezier(.615,.19,.305,.91) infinite;
+    z-index: -1;
+}
