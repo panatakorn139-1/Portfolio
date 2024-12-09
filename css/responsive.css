@@ -156,8 +156,18 @@
         margin: 2rem 6%;
     }
 
+    .my-thrid-project{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 2rem 6%;
+    }
+
     .fav-lab-text{
-        font-size: calc(0.9rem + 2vw);
+        font-size: calc(0.9rem + 1.6vw);
+    }
+
+    .fav-project-text {
+        font-size: calc(0.9rem + 1vw);
     }
 
     .mylab h1{
@@ -232,6 +242,14 @@
 
     .about_me p {
         font-size: 1.8rem;
+    }
+
+    .fav-lab-text{
+        font-size: calc(2rem);
+    }
+
+    .fav-project-text {
+        font-size: calc(2rem);
     }
 }
 

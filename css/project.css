@@ -1,0 +1,13 @@
+.my-thrid-project {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    margin: 2em;
+}
+
+.fav-project-text {
+    text-align: center;
+    font-size: calc(0.9rem + 1vw);
+    font-weight: 500;
+    margin-top: 20px;
+}
